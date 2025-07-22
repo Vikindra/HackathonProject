@@ -23,7 +23,7 @@ test('Download EMI Excel and print amortization table', async ({ page }) => {
   await page.click('body > div > div > main > article > div.calculatorcontainer > div > div:nth-child(4)');
 
   // Allow time for results to render
-  await page.waitForTimeout(2000);
+  await page.waitForTimeout(5000);
 
   // Define column headers
   const columnNames = [

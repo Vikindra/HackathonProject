@@ -1,6 +1,0 @@
-[
-  {
-    'Loan Amount Calculator Reused': 'Yes',
-    'Loan Tenure Calculator Reused': 'Yes'
-  }
-]

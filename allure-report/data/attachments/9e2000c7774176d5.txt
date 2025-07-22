@@ -1,5 +1,0 @@
-{
-  loanAmountVisible: true,
-  interestRateVisible: true,
-  tenureVisible: true
-}
