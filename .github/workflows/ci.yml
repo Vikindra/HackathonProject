@@ -1,0 +1,34 @@
+name: Playwright Automation Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: |
+        npm install
+        npx playwright install
+
+    - name: Run UI Tests
+      run: npx playwright test tests/ui.test.js
+
+    - name: Upload output.xlsx
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: data/output.xlsx
