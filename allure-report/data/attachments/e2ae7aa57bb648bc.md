@@ -1,0 +1,578 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "EMI Calculator":
+      - /url: https://emicalculator.net/
+    - list:
+      - listitem:
+        - link "Loan Calculators, Widgets & Rates":
+          - /url: "#"
+      - listitem:
+        - link "Articles":
+          - /url: https://emicalculator.net/category/articles/
+      - listitem:
+        - link "Product Reviews":
+          - /url: https://emicalculator.net/category/reviews/
+      - listitem:
+        - link "News & Opinion":
+          - /url: https://emicalculator.net/category/news-opinion/
+- document:
+  - main:
+    - article:
+      - heading "EMI Calculator for Home Loan, Car Loan & Personal Loan in India" [level=1]
+      - list:
+        - listitem:
+          - link "Home Loan":
+            - /url: "#"
+        - listitem:
+          - link "Personal Loan":
+            - /url: "#"
+        - listitem:
+          - link "Car Loan":
+            - /url: "#"
+      - text: Home Loan Amount
+      - textbox "Home Loan Amount": 50,00,000
+      - text: ₹ | 0 | 25L | 50L | 75L | 100L | 125L | 150L | 175L | 200L Interest Rate
+      - textbox "Interest Rate": "9"
+      - text: "% | 5 | 7.5 | 10 | 12.5 | 15 | 17.5 | 20 Loan Tenure"
+      - textbox "Loan Tenure": "20"
+      - radio "Yr" [checked]
+      - text: Yr
+      - radio "Mo"
+      - text: Mo | 0 | 5 | 10 | 15 | 20 | 25 | 30
+      - heading "Loan EMI" [level=4]
+      - paragraph: ₹44,986
+      - heading "Total Interest Payable" [level=4]
+      - paragraph: ₹57,96,711
+      - heading "Total Payment (Principal + Interest)" [level=4]
+      - paragraph: ₹1,07,96,711
+      - img: Break-up of Total Payment 46.3% 53.7% Principal Loan Amount Total Interest
+      - heading "Featured Calculators & Articles" [level=3]
+      - list:
+        - listitem:
+          - link "Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate":
+            - /url: https://emicalculator.net/loan-calculator/
+        - listitem:
+          - link "Home Loan EMI Calculator with Prepayments, Taxes & Insurance":
+            - /url: https://emicalculator.net/home-loan-emi-calculator/
+        - listitem:
+          - link "Credit Card EMI Calculator with GST":
+            - /url: https://emicalculator.net/credit-card-emi-calculator/
+        - listitem:
+          - link "The Pros and Cons of Credit Card EMIs":
+            - /url: https://emicalculator.net/the-pros-and-cons-of-credit-card-emis/
+        - listitem:
+          - link "The 5-20-30-40 Checklist for Home Loans":
+            - /url: https://emicalculator.net/the-5-20-30-40-checklist-for-home-loans/
+        - listitem:
+          - link "How Long Can You Keep Your Credit Card Active without Using It?":
+            - /url: https://emicalculator.net/how-long-can-you-keep-your-credit-card-active-without-using-it/
+      - insertion
+      - insertion
+      - text: Schedule showing EMI payments starting from
+      - textbox "Schedule showing EMI payments starting from": Jul 2025
+      - text: 
+      - combobox:
+        - option "Calendar Year wise" [selected]
+        - option "Financial Year wise"
+      - img: EMI Payment / year Balance Principal Interest Balance 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 ₹ 0 ₹ 1,20,000 ₹ 2,40,000 ₹ 3,60,000 ₹ 4,80,000 ₹ 6,00,000 ₹ 0 ₹ 12,00,000 ₹ 24,00,000 ₹ 36,00,000 ₹ 48,00,000 ₹ 60,00,000
+      - table:
+        - rowgroup:
+          - row "Year Principal (A) Interest (B) Total Payment (A + B) Balance Loan Paid To Date":
+            - cell "Year"
+            - cell "Principal (A)"
+            - cell "Interest (B)"
+            - cell "Total Payment (A + B)"
+            - cell "Balance"
+            - cell "Loan Paid To Date"
+          - row " 2025 ₹ 45,768 ₹ 2,24,149 ₹ 2,69,918 ₹ 49,54,232 0.92%":
+            - cell " 2025"
+            - cell "₹ 45,768"
+            - cell "₹ 2,24,149"
+            - cell "₹ 2,69,918"
+            - cell "₹ 49,54,232"
+            - cell "0.92%"
+          - row:
+            - cell
+          - row " 2026 ₹ 97,929 ₹ 4,41,907 ₹ 5,39,836 ₹ 48,56,303 2.87%":
+            - cell " 2026"
+            - cell "₹ 97,929"
+            - cell "₹ 4,41,907"
+            - cell "₹ 5,39,836"
+            - cell "₹ 48,56,303"
+            - cell "2.87%"
+          - row:
+            - cell
+          - row " 2027 ₹ 1,07,115 ₹ 4,32,720 ₹ 5,39,836 ₹ 47,49,187 5.02%":
+            - cell " 2027"
+            - cell "₹ 1,07,115"
+            - cell "₹ 4,32,720"
+            - cell "₹ 5,39,836"
+            - cell "₹ 47,49,187"
+            - cell "5.02%"
+          - row:
+            - cell
+          - row " 2028 ₹ 1,17,163 ₹ 4,22,672 ₹ 5,39,836 ₹ 46,32,024 7.36%":
+            - cell " 2028"
+            - cell "₹ 1,17,163"
+            - cell "₹ 4,22,672"
+            - cell "₹ 5,39,836"
+            - cell "₹ 46,32,024"
+            - cell "7.36%"
+          - row:
+            - cell
+          - row " 2029 ₹ 1,28,154 ₹ 4,11,681 ₹ 5,39,836 ₹ 45,03,870 9.92%":
+            - cell " 2029"
+            - cell "₹ 1,28,154"
+            - cell "₹ 4,11,681"
+            - cell "₹ 5,39,836"
+            - cell "₹ 45,03,870"
+            - cell "9.92%"
+          - row:
+            - cell
+          - row " 2030 ₹ 1,40,176 ₹ 3,99,660 ₹ 5,39,836 ₹ 43,63,694 12.73%":
+            - cell " 2030"
+            - cell "₹ 1,40,176"
+            - cell "₹ 3,99,660"
+            - cell "₹ 5,39,836"
+            - cell "₹ 43,63,694"
+            - cell "12.73%"
+          - row:
+            - cell
+          - row " 2031 ₹ 1,53,325 ₹ 3,86,510 ₹ 5,39,836 ₹ 42,10,368 15.79%":
+            - cell " 2031"
+            - cell "₹ 1,53,325"
+            - cell "₹ 3,86,510"
+            - cell "₹ 5,39,836"
+            - cell "₹ 42,10,368"
+            - cell "15.79%"
+          - row:
+            - cell
+          - row " 2032 ₹ 1,67,708 ₹ 3,72,127 ₹ 5,39,836 ₹ 40,42,660 19.15%":
+            - cell " 2032"
+            - cell "₹ 1,67,708"
+            - cell "₹ 3,72,127"
+            - cell "₹ 5,39,836"
+            - cell "₹ 40,42,660"
+            - cell "19.15%"
+          - row:
+            - cell
+          - row " 2033 ₹ 1,83,441 ₹ 3,56,395 ₹ 5,39,836 ₹ 38,59,219 22.82%":
+            - cell " 2033"
+            - cell "₹ 1,83,441"
+            - cell "₹ 3,56,395"
+            - cell "₹ 5,39,836"
+            - cell "₹ 38,59,219"
+            - cell "22.82%"
+          - row:
+            - cell
+          - row " 2034 ₹ 2,00,649 ₹ 3,39,187 ₹ 5,39,836 ₹ 36,58,571 26.83%":
+            - cell " 2034"
+            - cell "₹ 2,00,649"
+            - cell "₹ 3,39,187"
+            - cell "₹ 5,39,836"
+            - cell "₹ 36,58,571"
+            - cell "26.83%"
+          - row:
+            - cell
+          - row " 2035 ₹ 2,19,471 ₹ 3,20,365 ₹ 5,39,836 ₹ 34,39,100 31.22%":
+            - cell " 2035"
+            - cell "₹ 2,19,471"
+            - cell "₹ 3,20,365"
+            - cell "₹ 5,39,836"
+            - cell "₹ 34,39,100"
+            - cell "31.22%"
+          - row:
+            - cell
+          - row " 2036 ₹ 2,40,059 ₹ 2,99,777 ₹ 5,39,836 ₹ 31,99,041 36.02%":
+            - cell " 2036"
+            - cell "₹ 2,40,059"
+            - cell "₹ 2,99,777"
+            - cell "₹ 5,39,836"
+            - cell "₹ 31,99,041"
+            - cell "36.02%"
+          - row:
+            - cell
+          - row " 2037 ₹ 2,62,578 ₹ 2,77,258 ₹ 5,39,836 ₹ 29,36,463 41.27%":
+            - cell " 2037"
+            - cell "₹ 2,62,578"
+            - cell "₹ 2,77,258"
+            - cell "₹ 5,39,836"
+            - cell "₹ 29,36,463"
+            - cell "41.27%"
+          - row:
+            - cell
+          - row " 2038 ₹ 2,87,210 ₹ 2,52,626 ₹ 5,39,836 ₹ 26,49,253 47.01%":
+            - cell " 2038"
+            - cell "₹ 2,87,210"
+            - cell "₹ 2,52,626"
+            - cell "₹ 5,39,836"
+            - cell "₹ 26,49,253"
+            - cell "47.01%"
+          - row:
+            - cell
+          - row " 2039 ₹ 3,14,152 ₹ 2,25,684 ₹ 5,39,836 ₹ 23,35,102 53.30%":
+            - cell " 2039"
+            - cell "₹ 3,14,152"
+            - cell "₹ 2,25,684"
+            - cell "₹ 5,39,836"
+            - cell "₹ 23,35,102"
+            - cell "53.30%"
+          - row:
+            - cell
+          - row " 2040 ₹ 3,43,621 ₹ 1,96,214 ₹ 5,39,836 ₹ 19,91,480 60.17%":
+            - cell " 2040"
+            - cell "₹ 3,43,621"
+            - cell "₹ 1,96,214"
+            - cell "₹ 5,39,836"
+            - cell "₹ 19,91,480"
+            - cell "60.17%"
+          - row:
+            - cell
+          - row " 2041 ₹ 3,75,855 ₹ 1,63,980 ₹ 5,39,836 ₹ 16,15,625 67.69%":
+            - cell " 2041"
+            - cell "₹ 3,75,855"
+            - cell "₹ 1,63,980"
+            - cell "₹ 5,39,836"
+            - cell "₹ 16,15,625"
+            - cell "67.69%"
+          - row:
+            - cell
+          - row " 2042 ₹ 4,11,113 ₹ 1,28,722 ₹ 5,39,836 ₹ 12,04,512 75.91%":
+            - cell " 2042"
+            - cell "₹ 4,11,113"
+            - cell "₹ 1,28,722"
+            - cell "₹ 5,39,836"
+            - cell "₹ 12,04,512"
+            - cell "75.91%"
+          - row:
+            - cell
+          - row " 2043 ₹ 4,49,678 ₹ 90,157 ₹ 5,39,836 ₹ 7,54,833 84.90%":
+            - cell " 2043"
+            - cell "₹ 4,49,678"
+            - cell "₹ 90,157"
+            - cell "₹ 5,39,836"
+            - cell "₹ 7,54,833"
+            - cell "84.90%"
+          - row:
+            - cell
+          - row " 2044 ₹ 4,91,861 ₹ 47,974 ₹ 5,39,836 ₹ 2,62,972 94.74%":
+            - cell " 2044"
+            - cell "₹ 4,91,861"
+            - cell "₹ 47,974"
+            - cell "₹ 5,39,836"
+            - cell "₹ 2,62,972"
+            - cell "94.74%"
+          - row:
+            - cell
+          - row " 2045 ₹ 2,62,972 ₹ 6,946 ₹ 2,69,918 ₹ 0 100.00%":
+            - cell " 2045"
+            - cell "₹ 2,62,972"
+            - cell "₹ 6,946"
+            - cell "₹ 2,69,918"
+            - cell "₹ 0"
+            - cell "100.00%"
+          - row:
+            - cell
+      - paragraph: Want to download OR share a custom link to your EMI calculation (with all your numbers pre-filled)?
+      - button " Download PDF"
+      - button " Download Excel"
+      - button " Share"
+      - heading "What is EMI?" [level=2]
+      - paragraph: Equated Monthly Installment - EMI for short - is the amount payable every month to the bank or any other financial institution until the loan amount is fully paid off. It consists of the interest on loan as well as part of the principal amount to be repaid. The sum of principal amount and interest is divided by the tenure, i.e., number of months, in which the loan has to be repaid. This amount has to be paid monthly. The interest component of the EMI would be larger during the initial months and gradually reduce with each payment. The exact percentage allocated towards payment of the principal depends on the interest rate. Even though your monthly EMI payment won't change, the proportion of principal and interest components will change with time. With each successive payment, you'll pay more towards the principal and less in interest.
+      - paragraph: "Here's the formula to calculate EMI:"
+      - paragraph:
+        - img "EMI Formula"
+      - paragraph
+      - paragraph
+      - paragraph
+      - paragraph: where
+      - paragraph:
+        - strong: E
+        - text: is EMI
+      - paragraph:
+        - strong: P
+        - text: is Principal Loan Amount
+      - paragraph:
+        - strong: r
+        - text: is rate of interest calculated on monthly basis. (i.e., r = Rate of Annual interest/12/100. If rate of interest is 10.5% per annum, then r = 10.5/12/100=0.00875)
+      - paragraph:
+        - strong: "n"
+        - text: is loan term / tenure / duration in number of months
+      - blockquote:
+        - paragraph:
+          - text: For example, if you borrow ₹10,00,000 from the bank at 10.5% annual interest for a period of 10 years (i.e., 120 months), then EMI = ₹10,00,000 * 0.00875 * (1 + 0.00875)
+          - superscript: "120"
+          - text: / ((1 + 0.00875)
+          - superscript: "120"
+          - text: "- 1) = ₹13,493. i.e., you will have to pay ₹13,493 for 120 months to repay the entire loan amount. The total amount payable will be ₹13,493 * 120 = ₹16,19,220 that includes ₹6,19,220 as interest toward the loan."
+      - paragraph:
+        - text: Computing EMI for different combinations of principal loan amount, interest rates and loan term using the above
+        - link "EMI formula":
+          - /url: https://emicalculator.net/loan-emi-calculation-work/
+        - text: by hand or MS Excel is time consuming, complex and error prone. Our EMI calculator automates this calculation for you and gives you the result in a split second along with visual charts displaying payment schedule and the break-up of total payment.
+      - heading "How to Use EMI Calculator?" [level=2]
+      - paragraph: With colourful charts and instant results, our EMI Calculator is easy to use, intuitive to understand and is quick to perform. You can calculate EMI for home loan, car loan, personal loan, education loan or any other fully amortizing loan using this calculator.
+      - paragraph: "Enter the following information in the EMI Calculator:"
+      - list:
+        - listitem: Principal loan amount you wish to avail (rupees) 
+        - listitem: Loan term (months or years) 
+        - listitem: Rate of interest (percentage) 
+        - listitem:
+          - link "EMI in arrears OR EMI in advance":
+            - /url: https://emicalculator.net/emi-in-advance-vs-emi-in-arrears/
+            - strong: EMI in arrears OR EMI in
+            - text: advance
+          - text: (for car loan only) 
+      - paragraph: Use the slider to adjust the values in the EMI calculator form. If you need to enter more precise values, you can type the values directly in the relevant boxes provided above. As soon as the values are changed using the slider (or hit the 'tab' key after entering the values directly in the input fields), EMI calculator will re-calculate your monthly payment (EMI) amount.
+      - paragraph: A pie chart depicting the break-up of total payment (i.e., total principal vs. total interest payable) is also displayed. It displays the percentage of total interest versus principal amount in the sum total of all payments made against the loan. The payment schedule table showing payments made every month / year for the entire loan duration is displayed along with a chart showing interest and principal components paid each year. A portion of each payment is for the interest while the remaining amount is applied towards the principal balance. During initial loan period, a large portion of each payment is devoted to interest. With passage of time, larger portions pay down the principal. The payment schedule also shows the intermediate outstanding balance for each year which will be carried over to the next year.
+      - paragraph:
+        - text: Want to make part prepayments to shorten your home loan schedule and reduce your total interest outgo? Use our
+        - link "Home Loan EMI Calculator with Prepayments":
+          - /url: https://emicalculator.net/home-loan-emi-calculator/
+        - text: . If you wish to calculate how much loan you can afford OR determine advertised vs actual loan interest rate (along with loan APR) on a purchase, use our
+        - link "loan calculator":
+          - /url: https://emicalculator.net/loan-calculator/
+        - text: .
+      - heading "Floating Rate EMI Calculation" [level=2]
+      - paragraph:
+        - text: We suggest that you calculate floating / variable rate EMI by taking into consideration two opposite scenarios, i.e., optimistic (deflationary) and pessimistic (inflationary) scenario. Loan amount and loan tenure, two components required to calculate the EMI are under your control; i.e., you are going to decide how much loan you have to borrow and how long your loan tenure should be. But interest rate is decided by the banks & HFCs based on rates and policies set by
+        - link "RBI":
+          - /url: http://www.rbi.org.in/
+        - text: . As a borrower, you should consider the two extreme possibilities of increase and decrease in the rate of interest and calculate your EMI under these two conditions. Such calculation will help you decide how much EMI is affordable, how long your loan tenure should be and how much you should borrow.
+      - paragraph:
+        - strong: Optimistic (deflationary) scenario
+        - text: ": Assume that the rate of interest comes down by 1% - 3% from the present rate. Consider this situation and calculate your EMI. In this situation, your EMI will come down or you may opt to shorten the loan tenure. Ex: If you avail home loan to purchase a house as an investment, then optimistic scenario enables you to compare this with other investment opportunities."
+      - paragraph:
+        - strong: Pessimistic (inflationary) scenario
+        - text: ": In the same way, assume that the rate of interest is hiked by 1% - 3%. Is it possible for you to continue to pay the EMI without much struggle? Even a 2% increase in rate of interest can result in significant rise in your monthly payment for the entire loan tenure."
+      - paragraph: Such calculation helps you to plan for such future possibilities. When you take a loan, you are making a financial commitment for next few months, years or decades. So consider the best as well as worst cases...and be ready for both. In short, hope for the best but be prepared for the worst!
+      - list:
+        - listitem:
+          - link "":
+            - /url: https://emicalculator.net/home-loan-emi-calculator/
+          - heading "Home Loan EMI Calculator" [level=5]:
+            - link "Home Loan EMI Calculator":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/
+          - paragraph: Home Loan EMI Calculator with Prepayments, Taxes & Insurance
+          - text: 
+      - list:
+        - listitem:
+          - link "":
+            - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+          - heading "Android App" [level=5]:
+            - link "Android App":
+              - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+          - paragraph: Download our Free Android App from Google Play Store
+          - text: 
+      - list:
+        - listitem:
+          - link "":
+            - /url: https://emicalculator.net/loan-calculator/
+          - heading "Loan Calculator" [level=5]:
+            - link "Loan Calculator":
+              - /url: https://emicalculator.net/loan-calculator/
+          - paragraph: Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate
+          - text: 
+      - heading "Recent Articles" [level=2]
+      - list:
+        - listitem:
+          - link "How Long Can You Keep Your Credit Card Active without Using It?":
+            - /url: https://emicalculator.net/how-long-can-you-keep-your-credit-card-active-without-using-it/
+          - text: Jul 14, 2025
+        - listitem:
+          - link "Interest Rates Going down — Got a Bonus, Should You Prepay or Invest?":
+            - /url: https://emicalculator.net/interest-rates-going-down-got-a-bonus-should-you-prepay-or-invest/
+          - text: Jul 03, 2025
+        - listitem:
+          - link "Is the Builder Liable to Compensate You for Home Loan Interest in Case of Project Delays?":
+            - /url: https://emicalculator.net/is-the-builder-liable-to-compensate-you-for-home-loan-interest-in-case-of-project-delays/
+          - text: Jun 27, 2025
+        - listitem:
+          - link "Why Focusing Only on Interest Amount Can Mislead Your Loan Tenure Decision?":
+            - /url: https://emicalculator.net/why-focusing-only-on-interest-amount-can-mislead-your-loan-tenure-decision/
+          - text: Jun 24, 2025
+        - listitem:
+          - link "Struggling with Debt? A DIY Debt Audit May Help You":
+            - /url: https://emicalculator.net/struggling-with-debt-a-diy-debt-audit-may-help-you/
+          - text: Jun 21, 2025
+      - heading "Leave a Reply" [level=3]
+      - paragraph: Your email address will not be published. Required fields are marked *
+      - paragraph:
+        - text: Comment *
+        - textbox "Comment *"
+      - paragraph:
+        - text: Name *
+        - textbox "Name *"
+      - paragraph:
+        - text: Email *
+        - textbox "Email *"
+      - paragraph:
+        - text: Website
+        - textbox "Website"
+      - paragraph:
+        - button "Post Comment"
+      - heading "1,098 responses to “EMI Calculator for Home Loan, Car Loan & Personal Loan in India”" [level=2]
+      - list:
+        - listitem:
+          - article:
+            - text: "umeshkumar s fitter says:"
+            - link "July 4, 2025 at 10:43 PM":
+              - /url: https://emicalculator.net/#comment-6961
+              - time: July 4, 2025 at 10:43 PM
+            - paragraph: Thanks for your working sheet, its helpful.
+            - link "Reply to umeshkumar s fitter":
+              - /url: https://emicalculator.net/?replytocom=6961#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "dorji says:"
+            - link "June 25, 2025 at 7:17 AM":
+              - /url: https://emicalculator.net/#comment-6805
+              - time: June 25, 2025 at 7:17 AM
+            - paragraph: Thanks for your working sheet, its helpful.
+            - link "Reply to dorji":
+              - /url: https://emicalculator.net/?replytocom=6805#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "akash says:"
+            - link "June 20, 2025 at 9:45 AM":
+              - /url: https://emicalculator.net/#comment-6734
+              - time: June 20, 2025 at 9:45 AM
+            - paragraph: emi calculator web is so helpful for me
+            - link "Reply to akash":
+              - /url: https://emicalculator.net/?replytocom=6734#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Rahul bala says:"
+            - link "May 15, 2025 at 3:42 PM":
+              - /url: https://emicalculator.net/#comment-5982
+              - time: May 15, 2025 at 3:42 PM
+            - paragraph: Very easy to navigate, use and understand EMI data
+            - link "Reply to Rahul bala":
+              - /url: https://emicalculator.net/?replytocom=5982#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Pradeep Chauhan says:"
+            - link "May 10, 2025 at 2:54 PM":
+              - /url: https://emicalculator.net/#comment-5921
+              - time: May 10, 2025 at 2:54 PM
+            - paragraph:
+              - text: very useful site
+              - img "✌️"
+            - link "Reply to Pradeep Chauhan":
+              - /url: https://emicalculator.net/?replytocom=5921#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Anwesh Das says:"
+            - link "May 9, 2025 at 3:09 PM":
+              - /url: https://emicalculator.net/#comment-5904
+              - time: May 9, 2025 at 3:09 PM
+            - paragraph: Very easy to navigate, use and understand EMI data
+            - link "Reply to Anwesh Das":
+              - /url: https://emicalculator.net/?replytocom=5904#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - link "LK":
+              - /url: https://emicalculator.net/
+            - text: "says:"
+            - link "April 24, 2025 at 6:32 PM":
+              - /url: https://emicalculator.net/#comment-5658
+              - time: April 24, 2025 at 6:32 PM
+            - paragraph: Best platform for calculating EMI and eligibility
+            - link "Reply to LK":
+              - /url: https://emicalculator.net/?replytocom=5658#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Ambarish says:"
+            - link "April 16, 2025 at 9:49 PM":
+              - /url: https://emicalculator.net/#comment-5520
+              - time: April 16, 2025 at 9:49 PM
+            - paragraph: Very useful app. I use it very frequently.. I recommend this app to everyone. Great thanks for such a wonderful app
+            - link "Reply to Ambarish":
+              - /url: https://emicalculator.net/?replytocom=5520#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Saurav Mudgal says:"
+            - link "April 7, 2025 at 9:58 AM":
+              - /url: https://emicalculator.net/#comment-5398
+              - time: April 7, 2025 at 9:58 AM
+            - paragraph: I am using this calculator since very long. Really this is the best on the internet until now. Appreciate the maker of this.
+            - paragraph:
+              - text: Please do not remove it
+              - img "🙂"
+            - paragraph: Great thanks for such a nice application.
+            - link "Reply to Saurav Mudgal":
+              - /url: https://emicalculator.net/?replytocom=5398#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Vijay C S Anand says:"
+            - link "April 4, 2025 at 4:07 PM":
+              - /url: https://emicalculator.net/#comment-5370
+              - time: April 4, 2025 at 4:07 PM
+            - paragraph:
+              - link "https://emicalculator.net/":
+                - /url: https://emicalculator.net/
+              - text: is a great place to visit in the middle of any financial planning. You guys are very good with the Loan Amortization Schedule etc.
+            - paragraph: "It will be nice if you could add: 1. Simple Interest calculator with previous dates change option – (with Start & End Dates) 2. Compound Interest calculator with previous dates change option (with Start & End Dates) 3. Interest Amortization Schedule"
+            - paragraph: This will be very helpful for both Hand Loan Lenders & Hand Loan Seekers.
+            - paragraph: All the very Best to the team.
+            - link "Reply to Vijay C S Anand":
+              - /url: https://emicalculator.net/?replytocom=5370#respond
+              - text: Reply
+      - button "Load More"
+- contentinfo:
+  - heading "Calculators & Widgets" [level=3]
+  - list:
+    - listitem:
+      - link "EMI Calculator":
+        - /url: https://emicalculator.net/
+    - listitem:
+      - link "Android App":
+        - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+    - listitem:
+      - link "Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate":
+        - /url: https://emicalculator.net/loan-calculator/
+    - listitem:
+      - link "Home Loan EMI Calculator with Prepayments, Taxes & Insurance":
+        - /url: https://emicalculator.net/home-loan-emi-calculator/
+    - listitem:
+      - link "Mobile-friendly EMI Calculator Widget":
+        - /url: https://emicalculator.net/emi-calculator-widget/
+    - listitem:
+      - link "Home Loan Interest Rates — As of July 1, 2025":
+        - /url: https://emicalculator.net/home-loan-interest-rates/
+  - heading "Android App" [level=3]
+  - paragraph:
+    - text: You can also download our
+    - link "EMI Calculator android app":
+      - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+      - strong: EMI Calculator android app
+    - text: from the Google Play Store.
+  - paragraph:
+    - link:
+      - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+      - img
+  - heading "About Us" [level=3]
+  - list:
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://emicalculator.net/privacy-policy/
+    - listitem:
+      - link "Terms of Use":
+        - /url: https://emicalculator.net/terms-of-use/
+    - listitem:
+      - link "Contact Us":
+        - /url: https://emicalculator.net/contact/
+  - paragraph: Copyright © 2011-2025 emicalculator.net. All Rights Reserved.
+```

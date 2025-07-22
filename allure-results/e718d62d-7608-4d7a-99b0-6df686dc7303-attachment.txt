@@ -1,0 +1,6 @@
+[
+  {
+    'Loan Tenure Field Visible': true,
+    'Loan Tenure Change Validated': 'Yes'
+  }
+]

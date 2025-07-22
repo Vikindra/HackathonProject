@@ -1,0 +1,1 @@
+{ Month: 'Jul', Principal: '₹ 6,894', Interest: '₹ 3,125' }
