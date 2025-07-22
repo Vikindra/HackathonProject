@@ -41,7 +41,7 @@ class CarLoanPage {
           Interest: await this.page.locator('//*[@id="monthyear2025"]/td/div/table/tbody/tr[1]/td[3]').textContent()
       };
       }
-
+      //
       async validateEMICalculation() {
         await this.page.waitForSelector('#emitotalamount');
         return await this.page.locator('#emitotalamount').isVisible();
