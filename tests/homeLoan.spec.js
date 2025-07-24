@@ -94,5 +94,5 @@ test('Home Loan - Maintenance Impact', async ({ page }) => {
     'Maintenance Expenses / month': 1000
   });
   const results = await homeLoanPage.extractYearlyBreakup(5);
-  writeResults('MaintenanceImpact', results);
+  writeResults('Homeloan', results);
 });
