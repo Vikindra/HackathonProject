@@ -4,62 +4,31 @@ const fs = require('fs').promises;
 const XLSX = require('xlsx');
 
 test('Download EMI Excel and print amortization table', async ({ page }) => {
+  // Read Excel inside the test
+  const filePath = path.join('data', 'input.xlsx');
+  const workbook = XLSX.readFile(filePath);
+  const sheetName = workbook.SheetNames[0];
+  const sheetData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+
+  const input = sheetData[0];
+  if (!input) {
+    throw new Error('No input data found in Excel sheet.');
+  }
+
   await page.goto('https://emicalculator.net');
 
   // Navigate to Home Loan EMI Calculator
   await page.click('a[title="Loan Calculators, Widgets & Rates"]');
   await page.click('text=Home Loan EMI Calculator');
 
-  // Fill loan details
-  await page.fill('#homeprice', '5000000');
-  await page.fill('#downpayment', '20');
-  await page.fill('#homeloaninsuranceamount', '50000');
-  await page.fill('#homeloanamount', '4800000');
-  await page.fill('#homeloaninterest', '7.2');
-  await page.fill('#homeloanterm', '15');
-  await page.fill('#loanfees', '0.5');
+  // Fill loan details safely
+  await page.fill('#homeprice', (input['Home Value'] || '').toString());
+  await page.fill('#downpayment', (input['Down Payment (%)'] || '').toString());
+  await page.fill('#homeloaninsuranceamount', (input['Loan Insurance'] || '').toString());
+  await page.fill('#homeloanamount', (input['Loan Amount'] || '').toString());
+  await page.fill('#homeloaninterest', (input['Interest Rate'] || '').toString());
+  await page.fill('#homeloanterm', (input['Loan Tenure (Years)'] || '').toString());
+  await page.fill('#loanfees', (input['Loan Fees (%)'] || '').toString());
 
-  // Trigger the calculator update
-  await page.click('body > div > div > main > article > div.calculatorcontainer > div > div:nth-child(4)');
-
-  // Allow time for results to render
-  await page.waitForTimeout(5000);
-
-  // Define column headers
-  const columnNames = [
-    "Year",
-    "Principal(A)",
-    "Interest(B)",
-    "Taxes, Home Insurance & Maintenance(C)",
-    "Total Payment(A+B+C)",
-    "Balance",
-    "Loan Paid to Date"
-  ];
-
-  const data = [columnNames]; // First row: headers
-
-  // Extract all rows of amortization table
-  const rows = await page.$$(".yearlypaymentdetails");
-  console.log(`Found ${rows.length} rows`);
-
-  for (const row of rows) {
-    const cells = await row.$$("td");
-    const rowData = [];
-    for (const cell of cells) {
-      const text = await cell.textContent();
-      rowData.push(text.trim());
-    }
-    data.push(rowData); // Add row to dataset
-  }
-
-  // Create Excel worksheet and workbook
-  const worksheet = XLSX.utils.aoa_to_sheet(data);
-  const workbook = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(workbook, worksheet, 'amortization.xlsx');
-
-  // Ensure output folder exists and write file
-  await fs.mkdir('data', { recursive: true });
-  XLSX.writeFile(workbook, path.join('data', 'amortization.xlsx'));
-
-  console.log('\n Excel file saved to data/amortization.xlsx');
+  // Continue with rest of your script...
 });
